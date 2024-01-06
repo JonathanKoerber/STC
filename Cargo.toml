@@ -1,8 +1,11 @@
 [package]
-name = "STC"
+name = "stc"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+assert_cmd = "2.0.10"
+tempdir = "0.3.7"
+mockall = "0.12.1"
