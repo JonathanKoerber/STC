@@ -5,7 +5,6 @@ use command_registry::CommandRegistry;
 //mod build_dir;
 fn main() {
     let args: Vec<String> = env::args().collect();
-
     if args.len() < 2 {
         println!("usage: stc <command> **args");
         return;
